@@ -23,7 +23,7 @@ public class TestMethodDemo4 {
         long phone = sc.nextLong();
         
         System.out.println("enter your gender : ");
-        char gen = sc.next().charAt(0);
+        char gen = sc.next().charAt(0);   //method chaining-calling a method but resulted value calls another method.
 		
 		
 		getEmployeesalary(salary);
